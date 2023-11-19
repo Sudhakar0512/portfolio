@@ -1,7 +1,7 @@
 .Intro {
   display: flex;
   height: 77vh;
-  margin-top: 6rem;
+  margin-top: 5rem;
 }
 
 /* left side styling */
@@ -68,8 +68,9 @@
   left: -3rem;
 }
 .i-right > :nth-child(3) {
-  transform: scale(1.4);
-  left: 28%;
+  transform: scale(1.1);
+  left: 8%;
+  bottom: 28%;
 }
 .i-right > :nth-child(4) {
   transform: scale(0.62);
@@ -93,22 +94,112 @@
   filter: blur(72px);
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 1500px) {
+  .i-right > :nth-child(3) {
+    transform: scale(1.05);
+    left: 7%;
+    bottom: 29%;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .i-right > :nth-child(3) {
+    transform: scale(1.05);
+    left: 7%;
+    bottom: 20%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .i-right > :nth-child(3) {
+    transform: scale(1);
+    left: 5%;
+    bottom: 27%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .i-right > :nth-child(3) {
+    transform: scale(1);
+    left: 5%;
+    bottom: 27%;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .floating-div {
+    display: none !important;
+  }
+  .i-right > :nth-child(3) {
+    transform: scale(1);
+    left: 5%;
+    bottom: 27%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .floating-div {
+    display: block !important;
+    margin-top: -1rem;
+    font-size: 10px;
+  }
+  .floating-div.floatdiv1 {
+    margin-top: -5rem;
+    font-size: 10px;
+  }
   .Intro {
     flex-direction: column;
     gap: 7rem;
     height: 64rem;
+    margin: 0 20px;
+    margin-bottom: -14rem;
+    margin-top: 1.5rem;
   }
-
+  .i-icons {
+    margin-top: 0rem;
+  }
+  .i-icons img {
+    width: 3rem; /* Adjust the width as needed */
+    height: 3rem; /* Adjust the height as needed */
+    margin-right: 2px; /* Optional: Add some margin between the images */
+  }
+  .i-left {
+    gap: 2rem;
+    padding-bottom: 0;
+    padding-top: 2rem;
+    flex: 0;
+  }
   .i-right {
     transform: scale(0.8);
     left: -3rem;
+    /* margin: 0 auto; */
   }
   .i-right .blur {
     display: none;
   }
-  .floating-div:nth-of-type(1){
+  .floating-div:nth-of-type(1) {
     /* display: none; */
-    top: -7rem !important;;
+    top: -7rem !important;
+  }
+  .i-name {
+    gap: 0.5rem;
+  }
+  .i-name > :nth-child(1) {
+    font-size: 2rem;
+  }
+  .i-name > :nth-child(2) {
+    font-size: 2rem;
+  }
+  .i-name > :nth-child(3) {
+    font-weight: 100;
+    font-size: 16px;
+    color: var(--gray);
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .i-right > :nth-child(3) {
+    transform: scale(1);
+    left: 5%;
+    bottom: 38%;
   }
 }

@@ -24,16 +24,18 @@ const Services = () => {
       {/* left side */}
       <div className="awesome">
         {/* dark mode */}
-        <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
-        <span>services</span>
-        <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
-          <br />
-          ispum is simpley dummy text of printing
-        </spane>
-        <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+        <span style={{ color: darkMode ? "white" : "" }}>Ctrl + Info</span>
+        <span>About </span>
+        <span>
+        Aspiring professional in Computer Science and Business Systems, seeking a dynamic role in an esteemed organization. Bringing innovation, hands-on software project experience, and a passion for forging a fulfilling career
+        <br />
+        
+        </span>
+         
+        <a className="button btn" style={{"width":"8rem","textDecoration": "none" }} download={Resume} href={Resume}>
+        Ctrl + Download CV
         </a>
+        {/* <button className="button btn" style={{"width":"8rem"}}>Ctrl + Download CV</button> */}
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
@@ -45,9 +47,11 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            emoji={Humble}
+            heading={"Programmer"}
+            detail={
+              "C,Java,Python,Java Script,Type Script,Data Structures"
+            }
           />
         </motion.div>
         {/* second card */}
@@ -58,8 +62,8 @@ const Services = () => {
         >
           <Card
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Java Developer"}
+            detail={"Spring Boot,React.js,Spring Data JPA/MongoDb,Spring REST,Maven"}
           />
         </motion.div>
         {/* 3rd */}
@@ -69,11 +73,9 @@ const Services = () => {
           transition={transition}
         >
           <Card
-            emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
+            emoji={HeartEmoji}
+            heading={"Full Stack"}
+            detail={"MongoDb,Express,React,Node- MERN Stack Development"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>

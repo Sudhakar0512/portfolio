@@ -2,7 +2,7 @@
   height: 10vh;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: rem;
   top: 0;
 }
 .n-left {
@@ -31,7 +31,7 @@
 .n-list > ul {
   display: flex;
   gap: 2rem;
-  margin-right: 4rem;
+  margin-left: 12rem;
 }
 
 .n-list > ul :hover {
@@ -41,10 +41,14 @@
 
 .n-button {
   flex: 2;
+  
 }
 
 @media screen and (max-width: 480px) {
   .n-list {
     display: none;
+  }
+  .n-wrapper {
+    transform:scale(0.9)
   }
 }

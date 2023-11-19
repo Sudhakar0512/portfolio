@@ -1,56 +1,122 @@
-.contact-form{
-    padding: 0 3rem 0 3rem;
-    display: flex;
-    height: 80vh;
-    margin-top: 4rem;
-      /* scroll */
-  padding-top: 3rem;
+.contact-form {
+  padding: 0 3rem 0 3rem;
+  display: flex;
+  height: 80vh;
+  margin-top: 2rem;
+  /* scroll */
+  padding-top: 1rem;
+}
+.w-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  flex: 1;
+  margin-top: -4rem;
 }
 
-.c-right{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    flex: 1;
+.awesome {
+  text-align: center;
 }
 
-.c-right>form
-{
-    display: flex;
+.blur {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.c-right {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex: 1;
+  padding-top: 5rem;
+}
+
+.c-right > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.c-right .user {
+  width: 20rem;
+  height: 2rem;
+  padding: 0.3em;
+  outline: none;
+  border: 2px solid var(--orange);
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 4rem !important;
+}
+
+.c-blur1 {
+  top: 1rem;
+  left: 8rem;
+}
+.buttonc {
+  width: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .contact-form {
+    padding: 0;
     flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    
+    gap: 0rem;
+    height: 40rem;
+    margin-top: 4rem;
+  }
+  .c-right .user {
+    width: 16rem;
+  }
+  .c-right {
+    flex: 0;
+    margin-top: -2rem;
+  }
+  .w-left {
+    flex: 0;
+  }
 }
-
-.c-right .user{
-    width: 20rem;
-    height: 2rem;
-    padding: 0.3em;
-    outline: none;
-    border: 2px solid var(--orange);
-    border-radius: 8px;
-    font-size: 16px;   
-}
-
-textarea{
-    height: 4rem!important;
-}
-
-.c-blur1{
-    top: 1rem;
-    left: 8rem;
+@media screen and (max-width: 768px) {
+  .contact-form {
+    margin-bottom: -20rem;
+    margin-top: 4rem;
+  }
+  .c-right {
+    margin-top: -1rem;
+    padding: 0;
+    flex-direction: column;
+    height: 40rem;
+    margin-top: 1rem;
+  }
+  .c-right .user {
+    width: 13rem;
+    height: 1.5rem;
+  }
+  .c-right > form {
+    gap: 1rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
-    .contact-form{
-        padding: 0;
-        flex-direction: column;
-        gap: 5rem;
-        height: 40rem;
-    }
-    .c-right .user{
-        width: 16rem;
-    }
-
-}   
+  .contact-form {
+    margin-top: 4rem;
+  }
+  .awesome > :nth-child(1) {
+    font-size: 2rem;
+  }
+  .awesome > :nth-child(2) {
+    font-size: 1.5rem;
+  }
+  .awesome > :nth-child(3) {
+    font-size: 14px;
+  }
+}
