@@ -51,14 +51,21 @@ const Contact = () => {
             name="user_name"
             className="user"
             placeholder="Name"
+            required
           />
           <input
             type="email"
             name="user_email"
             className="user"
             placeholder="Email"
+            required
           />
-          <textarea name="message" className="user" placeholder="Message" />
+          <textarea
+            name="message"
+            className="user"
+            placeholder="Message"
+            required
+          />
           <input type="submit" value="Ctrl + Send" className="button buttonc" />
           <span>{done && "Thanks for Contacting me"}</span>
           <div
