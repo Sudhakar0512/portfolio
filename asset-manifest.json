@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3177302f.css",
-    "main.js": "/portfolio/static/js/main.1456b605.js",
+    "main.js": "/portfolio/static/js/main.9c0989e3.js",
     "static/media/eventplanner_pic.png": "/portfolio/static/media/eventplanner_pic.47aba55899d9efa03e44.png",
     "static/media/GroveGood.png": "/portfolio/static/media/GroveGood.fbafeb79f62a1e3b00a1.png",
     "static/media/NE.png": "/portfolio/static/media/NE.8910398906c9440cdb69.png",
     "static/media/smoke.mp4": "/portfolio/static/media/smoke.19ccac52415a702bff98.mp4",
     "static/media/sriMurugan.png": "/portfolio/static/media/sriMurugan.a1cc7247f5132d71b57d.png",
     "static/media/foodApp.png": "/portfolio/static/media/foodApp.bf84e03fb413049d93e6.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.944ae2c2747f86318de8.pdf",
     "static/media/TradeHarbour.png": "/portfolio/static/media/TradeHarbour.36cbbed234d499f11765.png",
     "static/media/heroimg.png": "/portfolio/static/media/heroimg.238fe3fd5a5eaeff5480.png",
+    "static/media/SudhakarResume.pdf": "/portfolio/static/media/SudhakarResume.c9d81131138fdba765ac.pdf",
     "static/media/glassesimoji.png": "/portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
     "static/media/thumbup.png": "/portfolio/static/media/thumbup.e06790ba656f0397cbe5.png",
     "static/media/humble.png": "/portfolio/static/media/humble.c8b32b53675e68978981.png",
@@ -21,10 +21,10 @@
     "static/media/glasses.png": "/portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "index.html": "/portfolio/index.html",
     "main.3177302f.css.map": "/portfolio/static/css/main.3177302f.css.map",
-    "main.1456b605.js.map": "/portfolio/static/js/main.1456b605.js.map"
+    "main.9c0989e3.js.map": "/portfolio/static/js/main.9c0989e3.js.map"
   },
   "entrypoints": [
     "static/css/main.3177302f.css",
-    "static/js/main.1456b605.js"
+    "static/js/main.9c0989e3.js"
   ]
 }
