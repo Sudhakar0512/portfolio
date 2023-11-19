@@ -75,7 +75,7 @@ const Services = () => {
           <Card
             emoji={HeartEmoji}
             heading={"Full Stack"}
-            detail={"MongoDb,Express,React,Node"}
+            detail={"MongoDb,Express,React,Node- MERN Stack Development"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
