@@ -32,8 +32,7 @@ const Intro = () => {
           <span>Sudhakar</span>
           <span>
             Passionate and dynamic web developer with a focus on MERN stack and
-            Spring Boot. Eager to contribute innovative solutions, leveraging a
-            strong foundation in full-stack development. Proven ability to
+            Java Spring Boot. Eager to contribute innovative solutions, leveraging a foundation in full-stack development and focusing on backend development. Proven ability to
             create seamless, responsive applications.
           </span>
         </div>
